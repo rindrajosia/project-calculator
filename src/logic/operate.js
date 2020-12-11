@@ -5,19 +5,21 @@ const operate = (numberOne, numberTwo, operation) => {
   const numbT = new Big(numberTwo);
   switch (operation) {
     case '-':
-      return (numbO.minus(numbT)).c[0];
+      return (numbO.minus(numbT)).toString();
     case '+':
-      return (numbO.plus(numbT)).c[0];
+      return (numbO.plus(numbT)).toString();
     case '÷':
-      if (numbT !== 0) {
-        return (numbO.div(numbT)).c[0];
+      if (numbT.toString() === '0') {
+        return 'Error';
       }
-      return 'Error';
-
+      return (numbO.div(numbT)).toString();
     case '%':
-      return (numbO.times(numbT)).c[0];
+      if (numbO.times(numbT) === 0) {
+        return '0';
+      }
+      return numbO.times(numbT).div(100).toString();
     case 'X':
-      return (numbO.multiply(numbT)).c[0];
+      return (numbO.times(numbT)).toString();
     default: return 'Error';
   }
 };

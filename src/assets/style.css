@@ -46,3 +46,35 @@
 .custom {
   background-color: lightgray;
 }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+}
+
+.main {
+  display: flex;
+}
+
+.text {
+  width: 50%;
+}
+
+li {
+  list-style: none;
+  margin-right: 5px;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: justify;
+}

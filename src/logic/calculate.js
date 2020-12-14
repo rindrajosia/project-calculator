@@ -48,13 +48,13 @@ const calculate = (data, buttonName) => {
           if (operation !== null) {
             next = operate(parseFloat(total), parseFloat(next), operation);
             total = next;
+            operation = null;
           }
 
           break;
         case '+/-':
           total *= (-1);
           next *= (-1);
-          console.log(total);
           break;
         default:
           return 'Error';

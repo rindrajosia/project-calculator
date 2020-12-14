@@ -2,19 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => (
-  <nav className="menu">
+  <nav className="menu" id="navbar">
     <div>
       Math magicians
     </div>
     <ul className="navigation">
       <li>
-        <Link to="/">Home </Link>
+        <Link to="/" id="home">Home </Link>
       </li>
       <li>
-        <Link to="/Calculator">| Calculator</Link>
+        <Link to="/Calculator" id="calculator">| Calculator</Link>
       </li>
       <li>
-        <Link to="/Quote">| Quote</Link>
+        <Link to="/Quote" id="quote">| Quote</Link>
       </li>
     </ul>
   </nav>

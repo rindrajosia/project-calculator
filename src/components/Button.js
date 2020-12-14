@@ -8,7 +8,6 @@ const Button = props => {
 
   const getClass = (color, wide) => {
     if (color === 'gray' && wide === true) {
-      console.log(wide);
       return 'custom button wide';
     }
     if (color === 'orange' && wide === true) {

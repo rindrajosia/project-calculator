@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Home = () => (
-  <div>
+  <div id="home-page">
     <h1>Welcome to our page</h1>
     <p>
       Lorem ipsum, or lipsum as it is sometimes known,

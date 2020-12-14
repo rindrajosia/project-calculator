@@ -54,7 +54,6 @@ const calculate = (data, buttonName) => {
         case '+/-':
           total *= (-1);
           next *= (-1);
-          console.log(total);
           break;
         default:
           return 'Error';

@@ -1,0 +1,48 @@
+.container {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ecran {
+  text-align: right;
+  height: 100px;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  padding-right: 10px;
+  padding-top: 40px;
+}
+
+.row {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  text-align: center;
+  color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.standard {
+  width: 25%;
+}
+
+.wide {
+  width: 50%;
+}
+
+.default {
+  background-color: orange;
+}
+
+.custom {
+  background-color: lightgray;
+}

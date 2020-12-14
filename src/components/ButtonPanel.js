@@ -7,33 +7,33 @@ const ButtonPanel = props => {
 
   return (
     <div>
-      <div id="one">
-        <Button name="AC" handleClick={() => handleClick('AC')} />
-        <Button name="+/-" handleClick={() => handleClick('+/-')} />
-        <Button name="%" handleClick={() => handleClick('%')} />
+      <div id="one" className="row">
+        <Button name="AC" color="gray" handleClick={() => handleClick('AC')} />
+        <Button name="+/-" color="gray" handleClick={() => handleClick('+/-')} />
+        <Button name="%" color="gray" handleClick={() => handleClick('%')} />
         <Button name="÷" handleClick={() => handleClick('÷')} />
       </div>
-      <div id="two">
-        <Button name="7" handleClick={() => handleClick('7')} />
-        <Button name="8" handleClick={() => handleClick('8')} />
-        <Button name="9" handleClick={() => handleClick('9')} />
+      <div id="two" className="row">
+        <Button name="7" color="gray" handleClick={() => handleClick('7')} />
+        <Button name="8" color="gray" handleClick={() => handleClick('8')} />
+        <Button name="9" color="gray" handleClick={() => handleClick('9')} />
         <Button name="X" handleClick={() => handleClick('X')} />
       </div>
-      <div id="free">
-        <Button name="4" handleClick={() => handleClick('4')} />
-        <Button name="5" handleClick={() => handleClick('5')} />
-        <Button name="6" handleClick={() => handleClick('6')} />
+      <div id="free" className="row">
+        <Button name="4" color="gray" handleClick={() => handleClick('4')} />
+        <Button name="5" color="gray" handleClick={() => handleClick('5')} />
+        <Button name="6" color="gray" handleClick={() => handleClick('6')} />
         <Button name="-" handleClick={() => handleClick('-')} />
       </div>
-      <div id="four">
-        <Button name="1" handleClick={() => handleClick('1')} />
-        <Button name="2" handleClick={() => handleClick('2')} />
-        <Button name="3" handleClick={() => handleClick('3')} />
+      <div id="four" className="row">
+        <Button name="1" color="gray" handleClick={() => handleClick('1')} />
+        <Button name="2" color="gray" handleClick={() => handleClick('2')} />
+        <Button name="3" color="gray" handleClick={() => handleClick('3')} />
         <Button name="+" handleClick={() => handleClick('+')} />
       </div>
-      <div id="five">
-        <Button name="0" handleClick={() => handleClick('0')} />
-        <Button name="." handleClick={() => handleClick('.')} />
+      <div id="five" className="row">
+        <Button name="0" wide color="gray" handleClick={() => handleClick('0')} />
+        <Button name="." color="gray" handleClick={() => handleClick('.')} />
         <Button name="=" handleClick={() => handleClick('=')} />
       </div>
     </div>

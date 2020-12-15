@@ -1,8 +1,7 @@
 import { render } from '@testing-library/react';
 import React from 'react';
-import { screen } from '@testing-library/dom';
-import Home from '../components/Home';
 import renderer from 'react-test-renderer';
+import Home from '../components/Home';
 
 test('Check if id: home-page exist', () => {
   render(<Home />);

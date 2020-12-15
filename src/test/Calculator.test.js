@@ -1,8 +1,7 @@
 import { render } from '@testing-library/react';
 import React from 'react';
-import userEvent from '@testing-library/user-event';
-import Calculator from '../components/Calculator';
 import renderer from 'react-test-renderer';
+import Calculator from '../components/Calculator';
 
 test('Check if id: calculator-page exist', () => {
   render(<Calculator />);

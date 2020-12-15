@@ -1,8 +1,8 @@
 import { render } from '@testing-library/react';
 import React from 'react';
 import userEvent from '@testing-library/user-event';
-import App from '../components/App';
 import renderer from 'react-test-renderer';
+import App from '../components/App';
 
 test('Check if navbar exist', () => {
   render(<App />);

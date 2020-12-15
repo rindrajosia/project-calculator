@@ -5,7 +5,7 @@ const calculate = (data, buttonName) => {
   const digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.'];
   if (total === null) total = '0';
 
-  if (total !== 'Error') {
+  if (total !== 'Error' || (next === null && !digits.includes(buttonName))) {
     if (digits.includes(buttonName)) {
       if (next !== null) next = next.toString();
       if (buttonName === '.') {
@@ -48,13 +48,13 @@ const calculate = (data, buttonName) => {
           if (operation !== null) {
             next = operate(parseFloat(total), parseFloat(next), operation);
             total = next;
+            operation = null;
           }
 
           break;
         case '+/-':
           total *= (-1);
           next *= (-1);
-          console.log(total);
           break;
         default:
           return 'Error';

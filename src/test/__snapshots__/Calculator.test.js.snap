@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="main"
+  id="calculator-page"
+>
+  <h1
+    className="text"
+  >
+    Let's do some math
+  </h1>
+  <div
+    className="container"
+  >
+    <div
+      className="ecran"
+    >
+      0
+    </div>
+    <div>
+      <div
+        className="row"
+        id="one"
+      >
+        <button
+          className="custom button standard"
+          onClick={[Function]}
+          type="button"
+          value="AC"
+        >
+          AC
+        </button>
+        <button
+          className="custom button standard"
+          onClick={[Function]}
+          type="button"
+          value="+/-"
+        >
+          +/-
+        </button>
+        <button
+          className="custom button standard"
+          onClick={[Function]}
+          type="button"
+          value="%"
+        >
+          %
+        </button>
+        <button
+          className="default button standard"
+          onClick={[Function]}
+          type="button"
+          value="÷"
+        >
+          ÷
+        </button>
+      </div>
+      <div
+        className="row"
+        id="two"
+      >
+        <button
+          className="custom button standard"
+          onClick={[Function]}
+          type="button"
+          value="7"
+        >
+          7
+        </button>
+        <button
+          className="custom button standard"
+          onClick={[Function]}
+          type="button"
+          value="8"
+        >
+          8
+        </button>
+        <button
+          className="custom button standard"
+          onClick={[Function]}
+          type="button"
+          value="9"
+        >
+          9
+        </button>
+        <button
+          className="default button standard"
+          onClick={[Function]}
+          type="button"
+          value="X"
+        >
+          X
+        </button>
+      </div>
+      <div
+        className="row"
+        id="free"
+      >
+        <button
+          className="custom button standard"
+          onClick={[Function]}
+          type="button"
+          value="4"
+        >
+          4
+        </button>
+        <button
+          className="custom button standard"
+          onClick={[Function]}
+          type="button"
+          value="5"
+        >
+          5
+        </button>
+        <button
+          className="custom button standard"
+          onClick={[Function]}
+          type="button"
+          value="6"
+        >
+          6
+        </button>
+        <button
+          className="default button standard"
+          onClick={[Function]}
+          type="button"
+          value="-"
+        >
+          -
+        </button>
+      </div>
+      <div
+        className="row"
+        id="four"
+      >
+        <button
+          className="custom button standard"
+          onClick={[Function]}
+          type="button"
+          value="1"
+        >
+          1
+        </button>
+        <button
+          className="custom button standard"
+          onClick={[Function]}
+          type="button"
+          value="2"
+        >
+          2
+        </button>
+        <button
+          className="custom button standard"
+          onClick={[Function]}
+          type="button"
+          value="3"
+        >
+          3
+        </button>
+        <button
+          className="default button standard"
+          onClick={[Function]}
+          type="button"
+          value="+"
+        >
+          +
+        </button>
+      </div>
+      <div
+        className="row"
+        id="five"
+      >
+        <button
+          className="custom button wide"
+          onClick={[Function]}
+          type="button"
+          value="0"
+        >
+          0
+        </button>
+        <button
+          className="custom button standard"
+          onClick={[Function]}
+          type="button"
+          value="."
+        >
+          .
+        </button>
+        <button
+          className="default button standard"
+          onClick={[Function]}
+          type="button"
+          value="="
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

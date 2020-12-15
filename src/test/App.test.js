@@ -2,6 +2,7 @@ import { render } from '@testing-library/react';
 import React from 'react';
 import userEvent from '@testing-library/user-event';
 import App from '../components/App';
+import renderer from 'react-test-renderer';
 
 test('Check if navbar exist', () => {
   render(<App />);
@@ -31,4 +32,9 @@ test('Click on quote link', () => {
   userEvent.click(document.querySelector('#quote'), leftClick);
   const quote = document.querySelector('#quote-page');
   expect(quote).not.toBeNull();
+});
+
+it('renders correctly', () => {
+  const app = renderer.create(<App />).toJSON();
+  expect(app).toMatchSnapshot();
 });
